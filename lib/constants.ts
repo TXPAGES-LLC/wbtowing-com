@@ -43,7 +43,7 @@ export const SERVICES = [
     slug: 'tire-changes',
     title: 'Tire Changes',
     shortTitle: 'Tire Changes',
-    description: 'Flat tire? We'll mount your spare and get you rolling again quickly and safely.',
+    description: "Flat tire? We'll mount your spare and get you rolling again quickly and safely.",
     icon: 'circle',
   },
   {
