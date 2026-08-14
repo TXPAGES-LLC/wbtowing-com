@@ -1,0 +1,105 @@
+@import "tailwindcss" source("..");
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Brand colors — sourced from the Welch Bros Towing logo */
+  --brand-navy: #0a1628;
+  --brand-navy-800: #0f2138;
+  --brand-navy-700: #16324f;
+  --brand-navy-600: #1c3350;
+  --brand-yellow: #f2c118;
+  --brand-yellow-dark: #d9a913;
+  --brand-red: #c8202f;
+  --brand-steel: #9aa5b1;
+
+  --brand-primary: var(--brand-yellow);
+  --brand-secondary: var(--brand-navy-700);
+  --brand-tertiary: var(--brand-steel);
+  --brand-bg-dark: var(--brand-navy);
+
+  /* Semantic tokens */
+  --background: var(--brand-navy);
+  --foreground: #eef1f5;
+  --card: var(--brand-navy-800);
+  --card-foreground: #eef1f5;
+  --popover: var(--brand-navy-800);
+  --popover-foreground: #eef1f5;
+  --primary: var(--brand-yellow);
+  --primary-foreground: var(--brand-navy);
+  --secondary: var(--brand-navy-700);
+  --secondary-foreground: #ffffff;
+  --muted: var(--brand-navy-600);
+  --muted-foreground: #a3acbb;
+  --accent: var(--brand-steel);
+  --accent-foreground: var(--brand-navy);
+  --destructive: var(--brand-red);
+  --destructive-foreground: #ffffff;
+  --border: var(--brand-navy-600);
+  --input: var(--brand-navy-600);
+  --ring: var(--brand-yellow);
+  --radius: 0.375rem;
+  --surface: var(--brand-navy-800);
+  --surface-2: #14294a;
+}
+
+@theme inline {
+  --font-sans: 'Inter', 'Inter Fallback', system-ui, sans-serif;
+  --font-display: 'Barlow Condensed', 'Barlow Condensed Fallback', sans-serif;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 4px);
+  --radius-xl: calc(var(--radius) + 8px);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-brand-primary: var(--brand-primary);
+  --color-brand-secondary: var(--brand-secondary);
+  --color-brand-tertiary: var(--brand-tertiary);
+  --color-brand-bg-dark: var(--brand-bg-dark);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+  }
+}
+
+@layer utilities {
+  /* Diamond-plate steel texture — replaces the flat lighter-blue (#0f2138)
+     section background with a brand-tinted industrial texture. */
+  .bg-diamond-plate {
+    background-color: var(--brand-navy-800);
+    background-image: url('/background-pattern-diamond-plate.png');
+    background-size: 260px 260px;
+    background-repeat: repeat;
+    background-blend-mode: soft-light;
+  }
+}

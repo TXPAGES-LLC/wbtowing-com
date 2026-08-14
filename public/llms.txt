@@ -1,0 +1,21 @@
+# Welch Bros Towing
+
+> 24-hour towing, roadside assistance, and vehicle recovery serving Brownwood, TX and Central Texas.
+
+## Core Pages
+
+- [Home](https://wbtowing.com/): Overview of Welch Bros Towing — 24/7 towing and roadside assistance based in Brownwood, TX.
+- [Towing](https://wbtowing.com/towing): 24-hour towing services for cars, trucks, and light-duty vehicles across Central Texas.
+- [Roadside Assistance](https://wbtowing.com/roadside-assistance): Jump-starts, fuel delivery, lockouts, and on-the-spot roadside help.
+- [Heavy-Duty Towing](https://wbtowing.com/heavy-duty-towing): Heavy wrecker service for commercial trucks, trailers, and farm equipment.
+- [Flatbed Towing](https://wbtowing.com/flatbed-towing): Wheels-off flatbed transport for low-clearance and all-wheel-drive vehicles.
+- [Recovery & Winch-Outs](https://wbtowing.com/recovery-winch-outs): Off-road recovery and winch-out service for stuck or wrecked vehicles.
+- [Tire Changes](https://wbtowing.com/tire-changes): On-site flat tire changes and spare tire installation.
+- [All Services](https://wbtowing.com/services): Full list of towing and roadside services offered.
+- [Service Areas](https://wbtowing.com/service-areas): Cities and counties served from the Brownwood, TX shop.
+- [Gallery](https://wbtowing.com/gallery): Photos of the Welch Bros Towing fleet and equipment.
+- [Reviews](https://wbtowing.com/reviews): Customer reviews and testimonials.
+- [FAQ](https://wbtowing.com/faq): Answers to common questions about towing and roadside assistance.
+- [About Us](https://wbtowing.com/about-us): Background on Welch Bros Towing and the team.
+- [Contact Us](https://wbtowing.com/contact-us): Phone, address, and contact details for dispatch.
+- [Blog](https://wbtowing.com/blog): Articles and guides on towing and roadside safety in Central Texas.
