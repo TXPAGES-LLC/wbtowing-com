@@ -21,7 +21,7 @@ const _barlowCondensed = Barlow_Condensed({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://wbtowing.com'),
+  metadataBase: new URL(''),
   title: {
     default: 'Welch Bros Towing | 24 Hour Towing & Roadside Assistance in Brownwood, TX',
     template: '%s | Welch Bros Towing – Brownwood, TX',

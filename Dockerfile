@@ -1,7 +1,7 @@
 FROM node:20-bullseye AS builder
 WORKDIR /app
 COPY package.json package-lock.json* ./
-RUN npm install --include=optional --no-audit --no-fund
+RUN if [ -f package-lock.json ]; then npm ci --include=optional --no-audit --no-fund; else npm install --include=optional --no-audit --no-fund; fi
 COPY . .
 RUN mkdir -p public
 RUN npm run build
